@@ -8,7 +8,7 @@ defmodule JsonWebToken.Algorithm.Rsa do
   alias JsonWebToken.Algorithm.Common
   alias JsonWebToken.Util
 
-  @key_bits_min 2048
+  @key_bits_min 1024
 
   @doc """
   Return a Message Authentication Code (MAC)
